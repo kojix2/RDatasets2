@@ -33,8 +33,10 @@ Rdatasets.search /diamonds/
 ```
 
 ## Development
-- Do not add data other than the CSV file.
-- Do not add custom useful methods for a specific dataset.
+
+```
+rake data:prepare
+```
 
 ## Contributing
 Bug reports and pull requests are welcome on GitHub at https://github.com/kojix2/rdatasets.
